@@ -23,3 +23,21 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+@font-face {
+  font-family: Aestetico;
+  src: url("../fonts/Aestetico-Regular/font.woff2") format("woff2"),
+    url("../fonts/Aestetico-Regular/font.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Aestetico;
+  src: url("../fonts/Aestetico-Bold/font.woff2") format("woff2"),
+    url("../fonts/Aestetico-Bold/font.woff") format("woff");
+  font-weight: 700;
+}
+
+html {
+  font-family: Aestetico;
+}

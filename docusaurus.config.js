@@ -71,6 +71,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Sailfish`,
     },
   },
+  plugins: ["./docusaurus.plugin"],
   presets: [
     [
       "@docusaurus/preset-classic",

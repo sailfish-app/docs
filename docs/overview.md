@@ -19,6 +19,6 @@ Sailfish is built on the DFINITY Internet Computer. To get started developing on
 
 The core canisters are:
 
-- Token canisters, any tokens that follow the [standard token interface (WIP)](https://github.com/sailfish-app/proposals/blob/master/Token.mo)
+- Token canisters, any tokens that follow the [standard token interface (WIP)](https://github.com/sailfish-app/proposals/blob/master/icip-1.md)
 - LiquidityPool, which makes tokens available for trading
 - TransactionArchive, which archives transaction data
